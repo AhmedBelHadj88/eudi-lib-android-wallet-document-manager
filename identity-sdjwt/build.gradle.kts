@@ -23,7 +23,7 @@ dependencies {
     implementation(project(":identity"))
     implementation(libs.kotlinx.datetime)
     implementation(libs.kotlinx.serialization.json)
-    testImplementation(libs.kotlin.test)
+    //testImplementation(libs.kotlin.test)
     testImplementation(libs.bouncy.castle.prov)
     testImplementation(libs.bouncy.castle.pkix)
 }

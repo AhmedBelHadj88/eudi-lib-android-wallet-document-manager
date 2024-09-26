@@ -1,4 +1,4 @@
-package com.android.identity.sdjwt.util
+/*package com.android.identity.sdjwt.util
 
 import com.android.identity.crypto.Crypto
 import com.android.identity.crypto.EcCurve
@@ -11,7 +11,7 @@ import java.security.Security
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
-/*class JsonWebKeyTest {
+class JsonWebKeyTest {
 
     @Before
     fun setup() {

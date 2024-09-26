@@ -1,4 +1,4 @@
-package com.android.identity.sdjwt
+/*package com.android.identity.sdjwt
 
 import com.android.identity.credential.CredentialFactory
 import com.android.identity.crypto.Algorithm
@@ -38,7 +38,7 @@ import kotlin.test.assertFailsWith
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.hours
 
-/*class SdJwtVcTest {
+class SdJwtVcTest {
 
     private lateinit var secureArea: SoftwareSecureArea
     private lateinit var secureAreaRepository: SecureAreaRepository
