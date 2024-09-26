@@ -7,6 +7,11 @@ kotlin {
     jvmToolchain(17)
 }
 
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
 android {
     namespace = "com.android.identity"
     compileSdk = 34
