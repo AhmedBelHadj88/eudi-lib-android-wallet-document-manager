@@ -31,6 +31,7 @@ plugins {
     alias libs.plugins.dependencycheck
     alias libs.plugins.sonarqube
     alias libs.plugins.maven.publish
+    id 'maven-publish'
 }
 
 apply from: 'jacoco.gradle'
