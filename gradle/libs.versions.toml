@@ -14,7 +14,7 @@ cbor = "4.5.2"
 cose = "1.1.0"
 bouncy-castle = "1.77"
 junit = "4.13.2"
-junit-android = "1.1.5"
+junit-android = "1.2.1"
 mockk = "1.13.5"
 espresso-core = "3.5.1"
 mavenPublish = "0.25.3"
@@ -34,7 +34,6 @@ jetbrainsKotlinJvm = "2.0.0"
 coreKtx = "1.13.1"
 appcompat = "1.7.0"
 material = "1.12.0"
-junitVersion = "4.12"
 volley = "1.2.1"
 monitor = "1.7.2"
 junitKtx = "1.2.1"
@@ -74,7 +73,6 @@ core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx"
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-biometrics = { module = "androidx.biometric:biometric", version.ref = "androidx-biometrics" }
-junit-junit = { group = "junit", name = "junit", version.ref = "junitVersion" }
 volley = { module = "com.android.volley:volley", version.ref = "volley" }
 androidx-monitor = { group = "androidx.test", name = "monitor", version.ref = "monitor" }
 androidx-junit-ktx = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "junitKtx" }

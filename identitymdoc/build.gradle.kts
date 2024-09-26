@@ -39,6 +39,4 @@ dependencies {
     implementation(libs.kotlinx.coroutine.test)
     implementation(libs.androidx.monitor)
     implementation(libs.androidx.junit.ktx)
-    testImplementation(libs.junit.junit)
-    androidTestImplementation(libs.junit.junit)
 }
