@@ -70,19 +70,24 @@ android {
         jvmTarget = "17"
     }
 
+    sourceSets {
+        test {
+            resources {
+                srcDirs 'src\\test\\assets'
+            }
+        }
+    }
     tasks.withType(KotlinCompile).configureEach {
         kotlinOptions {
             jvmTarget = "17"
         }
     }
-
-    sourceSets {
-        test {
-            resources {
-                srcDirs 'src\\test\\resources'
-            }
+    testOptions {
+        unitTests.all {
+            useJUnitPlatform()
         }
     }
+    buildToolsVersion '34.0.0'
 }
 
 dependencies {
