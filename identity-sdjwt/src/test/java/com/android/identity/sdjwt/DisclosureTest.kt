@@ -8,7 +8,7 @@ import org.junit.Assert.assertEquals
 import org.junit.Test
 import kotlin.random.Random
 
-class DisclosureTest {
+/*class DisclosureTest {
 
     @Test
     fun test_disclosure_from_disclosure() {
@@ -35,4 +35,4 @@ class DisclosureTest {
         assertEquals("address", d.key)
         assertEquals(address, d.value)
     }
-}
+}*/

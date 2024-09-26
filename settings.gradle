@@ -3,7 +3,6 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
-        maven { url 'https://jitpack.io' }
     }
 }
 
@@ -16,6 +15,7 @@ dependencyResolutionManagement {
             url = uri("https://s01.oss.sonatype.org/content/repositories/snapshots/")
             mavenContent { snapshotsOnly() }
         }
+        maven { url 'https://jitpack.io' }
     }
 }
 

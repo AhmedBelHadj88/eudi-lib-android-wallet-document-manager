@@ -40,7 +40,9 @@ monitor = "1.7.2"
 junitKtx = "1.2.1"
 runner = "1.6.2"
 
+
 [libraries]
+
 android-database-sqlcipher = { module = "net.zetetic:android-database-sqlcipher", version.ref = "androidDatabaseSqlcipher" }
 androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomRuntime" }
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }

@@ -28,6 +28,7 @@ import java.nio.ByteBuffer
 import java.nio.ByteOrder
 import java.util.Locale
 import java.util.OptionalInt
+import kotlin.text.*
 
 /**
  * BLE data transport
